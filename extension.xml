@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3">
+	<properties>
+		<name>Feature: Effect Builder Plugin - 3.5e/PFRPG</name>
+		<version>0.1.0</version>
+		<author>SoxMax</author>
+		<description>Plugin for the Effect Builder providing D&#38;D 3.5e and Pathfinder effects</description>
+		<loadorder>1001</loadorder>
+		<ruleset>
+			<name>3.5E</name>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG</name>
+		</ruleset>
+	</properties>
+	
+	<announcement text="https://github.com/SoxMax/FG-Effect-Builder \r Effect Builder - D&#38;D 3.5e / PFRPG Effects v0.1.0 \r Plugin for the Effect Builder providing D&#38;D 3.5e and Pathfinder effects" font="emotefont" />
+	
+	<base>
+		<!-- Editors -->
+		<includefile source="editors/editor_loader.xml" />
+	</base>
+</root>
