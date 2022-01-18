@@ -1,7 +1,4 @@
-# FG-Effect-Builder
-Extension for Fantasy Grounds which assists in creating effects
+# FG-Effect-Builder-Plugin-35E-PFRPG
+Plugin for Fantasy Grounds Effect Builder: https://github.com/SoxMax/FG-Effect-Builder
 
-To access the Effect Builder type `/buildeffect` or `/effectbuilder` into the chat box.
-After your effect string is fully constructed you may copy & paste or drag & drop the string wherever you need it.
-
-Currently the builder supports most D&D 3.5 / Pathfinder effects. It can also be used to build effects for other rulesets with similar effects (D&D 5E notably)
+Provides effects for the D&D 3.5e and Pathfinder rulesets
