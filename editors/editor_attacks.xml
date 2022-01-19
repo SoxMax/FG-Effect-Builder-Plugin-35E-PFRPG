@@ -7,6 +7,7 @@
     <includefile source="editors/effect/ATK.xml" />
     <includefile source="editors/effect/CMB.xml" />
     <includefile source="editors/effect/DMG.xml" />
+    <includefile source="editors/effect/DMGO.xml" />
     <includefile source="editors/effect/DMGTYPE.xml" />
     <includefile source="editors/effect/CC.xml" />
     <!-- attack effects bundle editor -->

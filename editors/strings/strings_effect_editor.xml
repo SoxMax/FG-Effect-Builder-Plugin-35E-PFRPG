@@ -14,6 +14,7 @@
     <string name="atk">Attack</string>
     <string name="cmb_long">Combat Maneuver Bonus (CMB)</string>
     <string name="dmg">Damage</string>
+    <string name="dmgo">Damage per Turn</string>
     <string name="dmgtype">Damage Type</string>
 
     <string name="editor_defense">Defense</string>

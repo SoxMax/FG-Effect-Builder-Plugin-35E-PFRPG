@@ -13,6 +13,10 @@ function onInit()
             value = "DMG"
         },
         {
+            labelres ="dmgo",
+            value = "DMGO"
+        },
+        {
             labelres ="dmgtype",
             value = "DMGTYPE"
         },
