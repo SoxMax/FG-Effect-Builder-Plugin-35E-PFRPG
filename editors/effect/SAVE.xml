@@ -7,13 +7,7 @@
         <sheetdata>
             <leftanchor />
 
-            <stringcycler_effect name="save_type">
-                <parameters>
-                    <defaultlabelres mergerule="replace">allsaves</defaultlabelres>
-                    <labelsres>fortitude|reflex|will</labelsres>
-                    <values>fortitude|reflex|will</values>
-                </parameters>
-            </stringcycler_effect>
+            <cycler_saves/>
 
             <effect_number name="effect_modifier" />
 

@@ -1,6 +1,6 @@
 function createEffectString()
     local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. effect_modifier.getValue()
-    local save_type = save_type.getStringValue()
+    local save_type = save.getStringValue()
     if save_type ~= "" and not effect_bonus_type.isEmpty() then
         effectString = effectString .. " " .. save_type .. "," .. effect_bonus_type.getValue()
     elseif save_type ~= "" then

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <template name="cycler_saves">
+        <stringcycler_effect name="save">
+            <parameters mergerule="replace">
+                <defaultlabelres>allsaves</defaultlabelres>
+                <labelsres>fortitude|reflex|will</labelsres>
+                <values>fortitude|reflex|will</values>
+            </parameters>
+        </stringcycler_effect>
+    </template>
+</root>
