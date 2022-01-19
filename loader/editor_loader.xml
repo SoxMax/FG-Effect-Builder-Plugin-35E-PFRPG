@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.3">
     <!-- Strings -->
-    <includefile source="editors/strings/strings_35e_pfrpg.xml" />
+    <includefile source="editors/strings/strings_effect_editor.xml" />
 
     <script name="Loader35PFRPG" file="loader/editor_loader.lua" />
 
