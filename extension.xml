@@ -5,7 +5,7 @@
 		<version>0.1.0</version>
 		<author>SoxMax</author>
 		<description>Plugin for the Effect Builder providing D&#38;D 3.5e and Pathfinder effects</description>
-		<loadorder>1001</loadorder>
+		<loadorder>2</loadorder>
 		<ruleset>
 			<name>3.5E</name>
 		</ruleset>
@@ -17,6 +17,10 @@
 	<announcement text="https://github.com/SoxMax/FG-Effect-Builder-Plugin-35E-PFRPG \r Effect Builder Plugin - D&#38;D 3.5e / PFRPG Effects v0.1.0 \r Plugin for the Effect Builder providing D&#38;D 3.5e and Pathfinder effects" font="emotefont" />
 	
 	<base>
+		<!-- Strings -->
+		<!-- Templates -->
+		<includefile source="common/cyclers.xml" />
+
 		<!-- Editors -->
 		<includefile source="loader/editor_loader.xml" />
 	</base>
