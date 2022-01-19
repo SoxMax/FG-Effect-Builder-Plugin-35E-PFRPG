@@ -8,6 +8,7 @@
 
 
     <string name="editor_ability">Ability</string>
+    <string name="check_bonus">Check Bonus?</string>
 
     <string name="editor_attacks">Attacks</string>
     <string name="atk">Attack</string>
