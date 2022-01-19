@@ -4,8 +4,11 @@ function createEffectString()
     if not effect_bonus_type.isEmpty() then
         table.insert(descriptors, effect_bonus_type.getValue())
     end
-    if not effect_skill_name.isEmpty() then
-        table.insert(descriptors, effect_skill_name.getValue())
+    if not skill.isEmpty() then
+        table.insert(descriptors, skill.getValue())
+    end
+    if not ability.isEmpty() then
+        table.insert(descriptors, ability.getValue())
     end
 
     if next(descriptors) then
