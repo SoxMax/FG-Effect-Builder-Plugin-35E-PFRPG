@@ -18,6 +18,6 @@
 	
 	<base>
 		<!-- Editors -->
-		<includefile source="editors/editor_loader.xml" />
+		<includefile source="loader/editor_loader.xml" />
 	</base>
 </root>
