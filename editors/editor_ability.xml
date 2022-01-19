@@ -19,6 +19,11 @@
             <effect_number name="effect_modifier" />
 
             <combobox_bonus_types name="effect_bonus_type" />
+
+            <label_effect>
+                <static textres="check_bonus"/>
+            </label_effect>
+            <checkbox_effect name="check_bonus"/>
         </sheetdata>
     </windowclass>
 </root>
