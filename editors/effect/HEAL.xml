@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="editor_HEAL">
+        <script file="editors/effect/scripts/HEAL.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor />
+
+            <dice_effect name="effect_dice" />
+
+			<label_plus />
+
+            <effect_number name="effect_modifier">
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </effect_number>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_HEAL">
+        function onInit()
+            EditorManager.addEditor(
+                "category_heal",
+                {
+                    value="HEAL",
+                    labelres="editor_heal",
+                    windowclass="editor_HEAL"
+                }
+            )
+        end
+    </script>
+</root>

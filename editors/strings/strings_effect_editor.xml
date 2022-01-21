@@ -32,7 +32,7 @@
     
     <string name="category_heal">Healing</string>
     <string name="editor_heal">Heal</string>
-    <string name="editor_fast_heal">Fast Healing</string>
+    <string name="editor_fheal">Fast Healing</string>
     <string name="editor_regen">Regeneration</string>
     
     <string name="category_spell">Spells</string>

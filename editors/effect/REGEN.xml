@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="editor_REGEN">
+        <script file="editors/effect/scripts/REGEN.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor />
+
+            <dice_effect name="effect_dice" />
+
+			<label_plus />
+
+            <effect_number name="effect_modifier">
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </effect_number>
+
+            <combobox_damage_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_REGEN">
+        function onInit()
+            EditorManager.addEditor(
+                "category_heal",
+                {
+                    value="REGEN",
+                    labelres="editor_regen",
+                    windowclass="editor_REGEN"
+                }
+            )
+        end
+    </script>
+</root>

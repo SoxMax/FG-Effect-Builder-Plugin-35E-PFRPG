@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="editor_FHEAL">
+        <script file="editors/effect/scripts/FHEAL.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor />
+
+            <dice_effect name="effect_dice" />
+
+			<label_plus />
+
+            <effect_number name="effect_modifier">
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </effect_number>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_FHEAL">
+        function onInit()
+            EditorManager.addEditor(
+                "category_heal",
+                {
+                    value="FHEAL",
+                    labelres="editor_fheal",
+                    windowclass="editor_FHEAL"
+                }
+            )
+        end
+    </script>
+</root>
