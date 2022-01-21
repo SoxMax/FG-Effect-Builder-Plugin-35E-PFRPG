@@ -21,6 +21,7 @@
 		<includefile source="common/cyclers.xml" />
 
 		<!-- Strings -->
+		<includefile source="strings/strings_common.xml" />
 		<includefile source="editors/strings/strings_effect_editor.xml" />
 
 		<!-- Editors -->

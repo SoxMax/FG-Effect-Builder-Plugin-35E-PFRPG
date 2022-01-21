@@ -22,4 +22,14 @@
             </parameters>
         </stringcycler_effect>
     </template>
+
+    <template name="cycler_range">
+        <stringcycler_effect name="effect_range">
+            <parameters>
+                <defaultlabelres mergerule="replace">allrange</defaultlabelres>
+                <labelsres>melee|ranged</labelsres>
+                <values>melee|ranged</values>
+            </parameters>
+        </stringcycler_effect>
+    </template>
 </root>

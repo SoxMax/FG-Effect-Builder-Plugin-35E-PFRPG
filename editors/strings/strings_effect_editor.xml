@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <string name="allrange">Melee+Ranged</string>
-    <string name="melee">Melee</string>
-    <string name="ranged">Ranged</string>
-    <string name="opportunity_bonus">Opportunity only?</string>
-
-
     <string name="category_ability">Ability</string>
     <string name="check_bonus">Check Bonus?</string>
 
