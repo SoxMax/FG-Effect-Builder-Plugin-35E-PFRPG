@@ -10,4 +10,16 @@
             </parameters>
         </stringcycler_effect>
     </template>
+
+    <template name="cycler_ifs">
+        <stringcycler_effect name="target">
+            <anchored width="60" />
+            <parameters mergerule="replace">
+                <defaultlabelres>if</defaultlabelres>
+                <defaultvalue>IF</defaultvalue>
+                <labelsres>ift</labelsres>
+                <values>IFT</values>
+            </parameters>
+        </stringcycler_effect>
+    </template>
 </root>

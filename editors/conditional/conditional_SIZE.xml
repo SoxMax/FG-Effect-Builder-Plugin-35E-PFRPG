@@ -6,6 +6,8 @@
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor />
+            
+            <cycler_ifs />
 
             <stringcycler_effect name="comparator">
                 <parameters>
@@ -18,4 +20,16 @@
             <combobox_sizes />
         </sheetdata>
     </windowclass>
+    <script name="loader_conditional_SIZE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_conditional",
+                {
+                    value="SIZE",
+                    labelres="size",
+                    windowclass="conditional_SIZE"
+                }
+            )
+        end
+    </script>
 </root>

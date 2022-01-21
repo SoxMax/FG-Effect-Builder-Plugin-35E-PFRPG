@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="conditional_CUSTOM">
-        <script file="editors/conditional/scripts/conditional_CUSTOM.lua" />
+    <windowclass name="conditional_CREATURE_TYPE">
+        <script file="editors/conditional/scripts/conditional_CREATURE_TYPE.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor />
             
             <cycler_ifs />
 
-            <stringfield_effects name="condition" />
+            <combobox_creature_types />
         </sheetdata>
     </windowclass>
-    <script name="loader_conditional_CUSTOM">
+    <script name="loader_conditional_CREATURE_TYPE">
         function onInit()
             EditorManager.addEditor(
                 "category_conditional",
                 {
-                    value="CUSTOM",
-                    labelres="custom_condition",
-                    windowclass="conditional_CUSTOM"
+                    value="CREATURE_TYPE",
+                    labelres="creature_type",
+                    windowclass="conditional_CREATURE_TYPE"
                 }
             )
         end

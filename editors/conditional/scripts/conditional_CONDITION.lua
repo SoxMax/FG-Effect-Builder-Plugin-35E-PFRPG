@@ -1,3 +1,3 @@
 function createEffectString()
-    return parentcontrol.window.effect.getStringValue() .. ": " .. condition.getValue()
+    return target.getStringValue() .. ": " .. condition.getValue()
 end

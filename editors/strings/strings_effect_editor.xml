@@ -47,12 +47,12 @@
     <string name="editor_speed">Speed</string>
     
     <string name="category_conditional">Conditionals</string>
-    <string name="editor_if">If</string>
+    <string name="if">If Self</string>
     <string name="ift">If Target</string>
     <string name="condition">Condition</string>
     <string name="alignment">Alignment</string>
     <string name="size">Size</string>
-    <string name="type">Creature Type</string>
+    <string name="creature_type">Creature Type</string>
     <string name="health">Health</string>
-    <string name="custom">Custom Condition</string>
+    <string name="custom_condition">Custom Condition</string>
 </root>

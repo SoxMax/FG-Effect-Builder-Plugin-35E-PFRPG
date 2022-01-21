@@ -6,8 +6,22 @@
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor />
+            
+            <cycler_ifs />
 
             <combobox_conditions />
         </sheetdata>
     </windowclass>
+    <script name="loader_conditional_CONDITION">
+        function onInit()
+            EditorManager.addEditor(
+                "category_conditional",
+                {
+                    value="CONDITION",
+                    labelres="condition",
+                    windowclass="conditional_CONDITION"
+                }
+            )
+        end
+    </script>
 </root>
