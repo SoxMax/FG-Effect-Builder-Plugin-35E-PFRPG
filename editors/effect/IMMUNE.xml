@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="editor_IMMUNE">
+        <script file="editors/effect/scripts/IMMUNE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor />
+
+            <combobox_damage_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_IMMUNE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="IMMUNE",
+                    labelres="editor_immune",
+                    windowclass="editor_IMMUNE"
+                }
+            )
+        end
+    </script>
+</root>

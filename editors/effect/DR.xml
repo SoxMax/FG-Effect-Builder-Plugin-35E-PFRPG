@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="editor_DR">
+        <script file="editors/effect/scripts/DR.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor />
+
+            <effect_number name="effect_modifier" />
+
+            <combobox_damage_types />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_DR">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="DR",
+                    labelres="editor_dr",
+                    windowclass="editor_DR"
+                }
+            )
+        end
+    </script>
+</root>
