@@ -14,7 +14,7 @@
 		</ruleset>
 	</properties>
 	
-	<announcement text="https://github.com/SoxMax/FG-Effect-Builder-Plugin-35E-PFRPG \r Effect Builder Plugin - D&#38;D 3.5e / PFRPG Effects v1.0.0 \r Plugin for the Effect Builder providing D&#38;D 3.5e and Pathfinder effects" font="emotefont" />
+	<announcement text="https://forge.fantasygrounds.com/shop/items/464/view \r Effect Builder Plugin - D&#38;D 3.5e / PFRPG Effects v1.0.0 \r Plugin for the Effect Builder providing D&#38;D 3.5e and Pathfinder effects" font="emotefont" />
 	
 	<base>
 		<!-- Templates -->
