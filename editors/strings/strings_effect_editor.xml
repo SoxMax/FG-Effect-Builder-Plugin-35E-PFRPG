@@ -11,40 +11,40 @@
     <string name="check_bonus">Check Bonus?</string>
 
     <string name="category_attack">Attacks</string>
-    <string name="editor_atk">Attack</string>
-    <string name="editor_cmb">Combat Maneuver Bonus (CMB)</string>
-    <string name="editor_dmg">Damage</string>
-    <string name="editor_dmgo">Damage per Turn</string>
-    <string name="editor_dmgtype">Damage Type</string>
-    <string name="editor_cc">Critical Confirmation</string>
+    <string name="effect_atk">Attack</string>
+    <string name="effect_cmb">Combat Maneuver Bonus (CMB)</string>
+    <string name="effect_dmg">Damage</string>
+    <string name="effect_dmgo">Damage per Turn</string>
+    <string name="effect_dmgtype">Damage Type</string>
+    <string name="effect_cc">Critical Confirmation</string>
 
     <string name="category_defense">Defense</string>
-    <string name="editor_ac">Armor Class (AC)</string>
-    <string name="editor_cmd">Combat Maneuver Defense (CMD)</string>
-    <string name="editor_save">Save</string>
+    <string name="effect_ac">Armor Class (AC)</string>
+    <string name="effect_cmd">Combat Maneuver Defense (CMD)</string>
+    <string name="effect_save">Save</string>
     <string name="allsaves">All Saves</string>
 
     <string name="category_susceptibility">Susceptibility</string>
-    <string name="editor_dr">Damage Resistance (DR)</string>
-    <string name="editor_resist">Resistance (Resist)</string>
-    <string name="editor_immune">Immunity</string>
-    <string name="editor_vuln">Vulnerability</string>
+    <string name="effect_dr">Damage Resistance (DR)</string>
+    <string name="effect_resist">Resistance (Resist)</string>
+    <string name="effect_immune">Immunity</string>
+    <string name="effect_vuln">Vulnerability</string>
     
     <string name="category_heal">Healing</string>
-    <string name="editor_heal">Heal</string>
-    <string name="editor_fheal">Fast Healing</string>
-    <string name="editor_regen">Regeneration</string>
+    <string name="effect_heal">Heal</string>
+    <string name="effect_fheal">Fast Healing</string>
+    <string name="effect_regen">Regeneration</string>
     
     <string name="category_spell">Spells</string>
-    <string name="editor_clc">Caster Level Check</string>
-    <string name="editor_dmgs">Spell Damage</string>
-    <string name="editor_dmgstype">Spell Damage Type</string>
+    <string name="effect_clc">Caster Level Check</string>
+    <string name="effect_dmgs">Spell Damage</string>
+    <string name="effect_dmgstype">Spell Damage Type</string>
     
     <string name="category_misc">Miscellaneous</string>
-    <string name="editor_init">Initiative</string>
-    <string name="editor_skill">Skill</string>
-    <string name="editor_nlvl">Negative Level</string>
-    <string name="editor_speed">Speed</string>
+    <string name="effect_init">Initiative</string>
+    <string name="effect_skill">Skill</string>
+    <string name="effect_nlvl">Negative Level</string>
+    <string name="effect_speed">Speed</string>
     
     <string name="category_conditional">Conditionals</string>
     <string name="if">If Self</string>

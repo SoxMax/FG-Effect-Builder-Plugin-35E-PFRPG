@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_VULN">
+    <windowclass name="effect_VULN">
         <script file="editors/effect/scripts/VULN.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -16,8 +16,8 @@
                 "category_susceptibility",
                 {
                     value="VULN",
-                    labelres="editor_vuln",
-                    windowclass="editor_VULN"
+                    labelres="effect_vuln",
+                    windowclass="effect_VULN"
                 }
             )
         end

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_CMD">
+    <windowclass name="effect_CMD">
         <script file="editors/effect/scripts/CMD.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -23,8 +23,8 @@
                 "category_defense",
                 {
                     value="CMD",
-                    labelres="editor_cmd",
-                    windowclass="editor_CMD"
+                    labelres="effect_cmd",
+                    windowclass="effect_CMD"
                 }
             )
         end

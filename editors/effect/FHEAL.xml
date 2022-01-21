@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_FHEAL">
+    <windowclass name="effect_FHEAL">
         <script file="editors/effect/scripts/FHEAL.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -24,8 +24,8 @@
                 "category_heal",
                 {
                     value="FHEAL",
-                    labelres="editor_fheal",
-                    windowclass="editor_FHEAL"
+                    labelres="effect_fheal",
+                    windowclass="effect_FHEAL"
                 }
             )
         end

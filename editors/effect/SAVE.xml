@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_SAVE">
+    <windowclass name="effect_SAVE">
         <script file="editors/effect/scripts/SAVE.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -20,8 +20,8 @@
                 "category_defense",
                 {
                     value="SAVE",
-                    labelres="editor_save",
-                    windowclass="editor_SAVE"
+                    labelres="effect_save",
+                    windowclass="effect_SAVE"
                 }
             )
         end

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_INIT">
+    <windowclass name="effect_INIT">
         <script file="editors/effect/scripts/INIT.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -26,8 +26,8 @@
                 "category_misc",
                 {
                     value="INIT",
-                    labelres="editor_init",
-                    windowclass="editor_INIT"
+                    labelres="effect_init",
+                    windowclass="effect_INIT"
                 }
             )
         end

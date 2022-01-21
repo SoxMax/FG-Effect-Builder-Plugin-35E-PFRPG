@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_DMG">
+    <windowclass name="effect_DMG">
         <script file="editors/effect/scripts/DMG.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -30,16 +30,16 @@
                 "category_attack",
                 {
                     value="DMG",
-                    labelres="editor_dmg",
-                    windowclass="editor_DMG"
+                    labelres="effect_dmg",
+                    windowclass="effect_DMG"
                 }
             )
             EditorManager.addEditor(
                 "category_spell",
                 {
                     value="DMGS",
-                    labelres="editor_dmgs",
-                    windowclass="editor_DMG"
+                    labelres="effect_dmgs",
+                    windowclass="effect_DMG"
                 }
             )
         end

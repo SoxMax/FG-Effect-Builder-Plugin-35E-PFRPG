@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_CC">
+    <windowclass name="effect_CC">
         <script file="editors/effect/scripts/CC.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -18,8 +18,8 @@
                 "category_attack",
                 {
                     value="CC",
-                    labelres="editor_cc",
-                    windowclass="editor_CC"
+                    labelres="effect_cc",
+                    windowclass="effect_CC"
                 }
             )
         end

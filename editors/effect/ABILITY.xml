@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_ABILITY">
+    <windowclass name="effect_ABILITY">
         <script file="editors/effect/scripts/ABILITY.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -24,7 +24,7 @@
                 {
                     value="STR",
                     labelres="strength",
-                    windowclass="editor_ABILITY"
+                    windowclass="effect_ABILITY"
                 }
             )
             EditorManager.addEditor(
@@ -32,7 +32,7 @@
                 {
                     value="DEX",
                     labelres="dexterity",
-                    windowclass="editor_ABILITY"
+                    windowclass="effect_ABILITY"
                 }
             )
             EditorManager.addEditor(
@@ -40,7 +40,7 @@
                 {
                     value="CON",
                     labelres="constitution",
-                    windowclass="editor_ABILITY"
+                    windowclass="effect_ABILITY"
                 }
             )
             EditorManager.addEditor(
@@ -48,7 +48,7 @@
                 {
                     value="INT",
                     labelres="intelligence",
-                    windowclass="editor_ABILITY"
+                    windowclass="effect_ABILITY"
                 }
             )
             EditorManager.addEditor(
@@ -56,7 +56,7 @@
                 {
                     value="WIS",
                     labelres="wisdom",
-                    windowclass="editor_ABILITY"
+                    windowclass="effect_ABILITY"
                 }
             )
             EditorManager.addEditor(
@@ -64,7 +64,7 @@
                 {
                     value="CHA",
                     labelres="charisma",
-                    windowclass="editor_ABILITY"
+                    windowclass="effect_ABILITY"
                 }
             )
         end

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_ATK">
+    <windowclass name="effect_ATK">
         <script file="editors/effect/scripts/ATK.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -33,8 +33,8 @@
                 "category_attack",
                 {
                     value="ATK",
-                    labelres="editor_atk",
-                    windowclass="editor_ATK"
+                    labelres="effect_atk",
+                    windowclass="effect_ATK"
                 }
             )
         end

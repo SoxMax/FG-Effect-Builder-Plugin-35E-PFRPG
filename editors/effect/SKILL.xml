@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_SKILL">
+    <windowclass name="effect_SKILL">
         <script file="editors/effect/scripts/SKILL.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -30,8 +30,8 @@
                 "category_misc",
                 {
                     value="SKILL",
-                    labelres="editor_skill",
-                    windowclass="editor_SKILL"
+                    labelres="effect_skill",
+                    windowclass="effect_SKILL"
                 }
             )
         end

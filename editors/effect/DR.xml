@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_DR">
+    <windowclass name="effect_DR">
         <script file="editors/effect/scripts/DR.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -18,8 +18,8 @@
                 "category_susceptibility",
                 {
                     value="DR",
-                    labelres="editor_dr",
-                    windowclass="editor_DR"
+                    labelres="effect_dr",
+                    windowclass="effect_DR"
                 }
             )
         end

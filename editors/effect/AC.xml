@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_AC">
+    <windowclass name="effect_AC">
         <script file="editors/effect/scripts/AC.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -25,8 +25,8 @@
                 "category_defense",
                 {
                     value="AC",
-                    labelres="editor_ac",
-                    windowclass="editor_AC"
+                    labelres="effect_ac",
+                    windowclass="effect_AC"
                 }
             )
         end

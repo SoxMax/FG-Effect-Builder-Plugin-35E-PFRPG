@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_NLVL">
+    <windowclass name="effect_NLVL">
         <script file="editors/effect/scripts/NLVL.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -16,8 +16,8 @@
                 "category_misc",
                 {
                     value="NLVL",
-                    labelres="editor_nlvl",
-                    windowclass="editor_NLVL"
+                    labelres="effect_nlvl",
+                    windowclass="effect_NLVL"
                 }
             )
         end

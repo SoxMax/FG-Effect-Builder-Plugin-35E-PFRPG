@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_HEAL">
+    <windowclass name="effect_HEAL">
         <script file="editors/effect/scripts/HEAL.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -24,8 +24,8 @@
                 "category_heal",
                 {
                     value="HEAL",
-                    labelres="editor_heal",
-                    windowclass="editor_HEAL"
+                    labelres="effect_heal",
+                    windowclass="effect_HEAL"
                 }
             )
         end

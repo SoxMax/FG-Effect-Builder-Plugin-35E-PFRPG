@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_REGEN">
+    <windowclass name="effect_REGEN">
         <script file="editors/effect/scripts/REGEN.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -26,8 +26,8 @@
                 "category_heal",
                 {
                     value="REGEN",
-                    labelres="editor_regen",
-                    windowclass="editor_REGEN"
+                    labelres="effect_regen",
+                    windowclass="effect_REGEN"
                 }
             )
         end

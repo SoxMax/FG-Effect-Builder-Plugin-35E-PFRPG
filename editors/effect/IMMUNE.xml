@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="editor_IMMUNE">
+    <windowclass name="effect_IMMUNE">
         <script file="editors/effect/scripts/IMMUNE.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -16,8 +16,8 @@
                 "category_susceptibility",
                 {
                     value="IMMUNE",
-                    labelres="editor_immune",
-                    windowclass="editor_IMMUNE"
+                    labelres="effect_immune",
+                    windowclass="effect_IMMUNE"
                 }
             )
         end
