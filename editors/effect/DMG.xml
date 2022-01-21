@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="DMG">
+    <windowclass name="editor_DMG">
         <script file="editors/effect/scripts/DMG.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -24,4 +24,24 @@
             <cycler_range />
         </sheetdata>
     </windowclass>
+    <script name="loader_DMG">
+        function onInit()
+            EditorManager.addEditor(
+                "category_attack",
+                {
+                    value="DMG",
+                    labelres="editor_dmg",
+                    windowclass="editor_DMG"
+                }
+            )
+            EditorManager.addEditor(
+                "category_spell",
+                {
+                    value="DMGS",
+                    labelres="editor_dmgs",
+                    windowclass="editor_DMG"
+                }
+            )
+        end
+    </script>
 </root>

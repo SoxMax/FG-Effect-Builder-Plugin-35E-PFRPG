@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="CLC">
+    <windowclass name="editor_CLC">
         <script file="editors/effect/scripts/CLC.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -10,4 +10,16 @@
             <effect_number name="effect_modifier" />
         </sheetdata>
     </windowclass>
+    <script name="loader_CLC">
+        function onInit()
+            EditorManager.addEditor(
+                "category_spell",
+                {
+                    value="CLC",
+                    labelres="editor_clc",
+                    windowclass="editor_CLC"
+                }
+            )
+        end
+    </script>
 </root>

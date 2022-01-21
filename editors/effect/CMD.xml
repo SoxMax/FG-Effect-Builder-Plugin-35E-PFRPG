@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="CMD">
+    <windowclass name="editor_CMD">
         <script file="editors/effect/scripts/CMD.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -17,4 +17,16 @@
             <checkbox_effect name="effect_opportunity"/>
         </sheetdata>
     </windowclass>
+    <script name="loader_CMD">
+        function onInit()
+            EditorManager.addEditor(
+                "category_defense",
+                {
+                    value="CMD",
+                    labelres="editor_cmd",
+                    windowclass="editor_CMD"
+                }
+            )
+        end
+    </script>
 </root>

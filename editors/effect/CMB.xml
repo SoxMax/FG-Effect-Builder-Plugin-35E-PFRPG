@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="CMB">
+    <windowclass name="editor_CMB">
         <script file="editors/effect/scripts/CMB.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -25,4 +25,16 @@
             <checkbox_effect name="effect_opportunity"/>
         </sheetdata>
     </windowclass>
+    <script name="loader_CMB">
+        function onInit()
+            EditorManager.addEditor(
+                "category_attack",
+                {
+                    value="CMB",
+                    labelres="editor_cmb",
+                    windowclass="editor_CMB"
+                }
+            )
+        end
+    </script>
 </root>

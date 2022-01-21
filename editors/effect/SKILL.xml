@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="SKILL">
+    <windowclass name="editor_SKILL">
         <script file="editors/effect/scripts/SKILL.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -24,4 +24,16 @@
             <combobox_abilities />
         </sheetdata>
     </windowclass>
+    <script name="loader_SKILL">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="SKILL",
+                    labelres="editor_skill",
+                    windowclass="editor_SKILL"
+                }
+            )
+        end
+    </script>
 </root>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="CC">
+    <windowclass name="editor_CC">
         <script file="editors/effect/scripts/CC.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -12,4 +12,16 @@
             <combobox_bonus_types name="effect_bonus_type" />
         </sheetdata>
     </windowclass>
+    <script name="loader_CC">
+        function onInit()
+            EditorManager.addEditor(
+                "category_attack",
+                {
+                    value="CC",
+                    labelres="editor_cc",
+                    windowclass="editor_CC"
+                }
+            )
+        end
+    </script>
 </root>

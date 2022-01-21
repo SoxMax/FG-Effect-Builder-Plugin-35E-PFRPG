@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="INIT">
+    <windowclass name="editor_INIT">
         <script file="editors/effect/scripts/INIT.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -20,4 +20,16 @@
             <combobox_bonus_types name="effect_bonus_type" />
         </sheetdata>
     </windowclass>
+    <script name="loader_INIT">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="INIT",
+                    labelres="editor_init",
+                    windowclass="editor_INIT"
+                }
+            )
+        end
+    </script>
 </root>

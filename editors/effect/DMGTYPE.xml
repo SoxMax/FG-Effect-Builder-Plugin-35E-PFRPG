@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="DMGTYPE">
+    <windowclass name="editor_DMGTYPE">
         <script file="editors/effect/scripts/DMGTYPE.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
@@ -10,4 +10,24 @@
             <combobox_damage_types name="damage_type" />
         </sheetdata>
     </windowclass>
+    <script name="loader_DMGTYPE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_attack",
+                {
+                    value="DMGTYPE",
+                    labelres="editor_dmgtype",
+                    windowclass="editor_DMGTYPE"
+                }
+            )
+            EditorManager.addEditor(
+                "category_spell",
+                {
+                    value="DMGSTYPE",
+                    labelres="editor_dmgstype",
+                    windowclass="editor_DMGTYPE"
+                }
+            )
+        end
+    </script>
 </root>

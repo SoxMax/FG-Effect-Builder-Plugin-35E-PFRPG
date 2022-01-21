@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="editor_ABILITY">
+        <script file="editors/effect/scripts/ABILITY.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor />
+
+            <!-- <stringcycler_effect name="effect">
+                <parameters>
+                    <defaultlabelres mergerule="replace">strength</defaultlabelres>
+                    <defaultvalue>STR</defaultvalue>
+                    <labelsres>dexterity|constitution|intelligence|wisdom|charisma</labelsres>
+                    <values>DEX|CON|INT|WIS|CHA</values>
+                </parameters>
+            </stringcycler_effect> -->
+
+            <effect_number name="effect_modifier" />
+
+            <combobox_bonus_types name="effect_bonus_type" />
+
+            <label_effect>
+                <static textres="check_bonus"/>
+            </label_effect>
+            <checkbox_effect name="check_bonus"/>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_ABILITY">
+        function onInit()
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="STR",
+                    labelres="strength",
+                    windowclass="editor_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="DEX",
+                    labelres="dexterity",
+                    windowclass="editor_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="CON",
+                    labelres="constitution",
+                    windowclass="editor_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="INT",
+                    labelres="intelligence",
+                    windowclass="editor_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="WIS",
+                    labelres="wisdom",
+                    windowclass="editor_ABILITY"
+                }
+            )
+            EditorManager.addEditor(
+                "category_ability",
+                {
+                    value="CHA",
+                    labelres="charisma",
+                    windowclass="editor_ABILITY"
+                }
+            )
+        end
+    </script>
+</root>
