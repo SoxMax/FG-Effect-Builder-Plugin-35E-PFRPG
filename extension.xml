@@ -5,7 +5,7 @@
 		<version>1.0.0</version>
 		<author>SoxMax</author>
 		<description>Plugin for the Effect Builder providing D&#38;D 3.5e and Pathfinder effects</description>
-		<loadorder>1</loadorder>
+		<loadorder>2</loadorder>
 		<ruleset>
 			<name>3.5E</name>
 		</ruleset>
