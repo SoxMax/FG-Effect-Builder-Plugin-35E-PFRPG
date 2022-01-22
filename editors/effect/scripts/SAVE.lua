@@ -4,7 +4,7 @@ function createEffectString()
     if save_type ~= "" and not effect_bonus_type.isEmpty() then
         effectString = effectString .. " " .. save_type .. "," .. effect_bonus_type.getValue()
     elseif save_type ~= "" then
-        effectString = effectString .. " " .. save_type.getStringValue()
+        effectString = effectString .. " " .. save_type
     elseif not effect_bonus_type.isEmpty() then
         effectString = effectString .. " " .. effect_bonus_type.getValue()
     end
