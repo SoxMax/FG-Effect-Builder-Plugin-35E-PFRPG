@@ -19,7 +19,7 @@
     <string name="allsaves">All Saves</string>
 
     <string name="category_susceptibility">Susceptibility</string>
-    <string name="effect_dr">Damage Resistance (DR)</string>
+    <string name="effect_dr">Damage Reduction (DR)</string>
     <string name="effect_resist">Resistance (Resist)</string>
     <string name="effect_immune">Immunity</string>
     <string name="effect_vuln">Vulnerability</string>
