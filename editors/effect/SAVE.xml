@@ -7,7 +7,7 @@
         <sheetdata>
             <leftanchor_eb />
 
-            <cycler_eb_saves/>
+            <cycler_eb_save/>
 
             <number_eb_valueholder name="effect_modifier" />
 

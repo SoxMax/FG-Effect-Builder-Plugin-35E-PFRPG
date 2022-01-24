@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <template name="cycler_eb_saves">
+    <template name="cycler_eb_save">
         <cycler_eb_valueholder name="save">
             <parameters mergerule="replace">
                 <defaultlabelres>allsaves</defaultlabelres>
