@@ -7,7 +7,9 @@
         <sheetdata>
             <leftanchor />
 
-            <dice_effect name="effect_dice" />
+            <subwindow_dice_value_editor />
+
+            <!-- <dice_effect name="effect_dice" />
 
 			<label_plus />
 
@@ -15,7 +17,7 @@
                 <anchored>
                     <left offset="5" />
                 </anchored>
-            </effect_number>
+            </effect_number> -->
 
             <combobox_bonus_types name="effect_bonus_type" />
 
