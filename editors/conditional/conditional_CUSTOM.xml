@@ -9,7 +9,7 @@
             
             <cycler_eb_ifs />
 
-            <stringfield_eb name="condition" />
+            <stringfield_eb_valueholder name="condition" />
         </sheetdata>
     </windowclass>
     <script name="loader_conditional_CUSTOM">

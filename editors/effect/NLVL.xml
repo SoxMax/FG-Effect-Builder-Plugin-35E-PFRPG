@@ -7,7 +7,7 @@
         <sheetdata>
             <leftanchor_eb />
 
-            <number_eb name="effect_modifier" />
+            <number_eb_valueholder name="effect_modifier" />
         </sheetdata>
     </windowclass>
     <script name="loader_NLVL">

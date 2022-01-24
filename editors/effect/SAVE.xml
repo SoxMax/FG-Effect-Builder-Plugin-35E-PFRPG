@@ -9,7 +9,7 @@
 
             <cycler_eb_saves/>
 
-            <number_eb name="effect_modifier" />
+            <number_eb_valueholder name="effect_modifier" />
 
             <combobox_eb_bonus_type name="effect_bonus_type" />
         </sheetdata>
