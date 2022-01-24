@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <template name="cycler_saves">
+        <stringcycler_effect name="save">
+            <parameters mergerule="replace">
+                <defaultlabelres>allsaves</defaultlabelres>
+                <labelsres>fortitude|reflex|will</labelsres>
+                <values>fortitude|reflex|will</values>
+            </parameters>
+        </stringcycler_effect>
+    </template>
+
+    <template name="cycler_ifs">
+        <stringcycler_effect name="target">
+            <anchored width="60" />
+            <parameters mergerule="replace">
+                <defaultlabelres>if</defaultlabelres>
+                <defaultvalue>IF</defaultvalue>
+                <labelsres>ift</labelsres>
+                <values>IFT</values>
+            </parameters>
+        </stringcycler_effect>
+    </template>
+
+    <template name="cycler_range">
+        <stringcycler_effect name="effect_range">
+            <parameters>
+                <defaultlabelres mergerule="replace">allrange</defaultlabelres>
+                <labelsres>melee|ranged</labelsres>
+                <values>melee|ranged</values>
+            </parameters>
+        </stringcycler_effect>
+    </template>
+</root>
