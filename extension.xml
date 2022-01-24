@@ -18,6 +18,7 @@
 	
 	<base>
 		<!-- Templates -->
+		<includefile source="common/old/cyclers.xml" />
 		<includefile source="common/cyclers.xml" />
 
 		<!-- Strings -->

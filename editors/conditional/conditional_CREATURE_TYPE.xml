@@ -5,11 +5,11 @@
         <script file="editors/conditional/scripts/conditional_CREATURE_TYPE.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
-            <leftanchor />
+            <leftanchor_eb />
             
-            <cycler_ifs />
+            <cycler_eb_ifs />
 
-            <combobox_creature_types />
+            <combobox_eb_creature_type />
         </sheetdata>
     </windowclass>
     <script name="loader_conditional_CREATURE_TYPE">

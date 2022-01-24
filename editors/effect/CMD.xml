@@ -5,16 +5,16 @@
         <script file="editors/effect/scripts/CMD.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
-            <leftanchor />
+            <leftanchor_eb />
 
-            <effect_number name="effect_modifier" />
+            <number_eb_valueholder name="effect_modifier" />
 
-            <combobox_bonus_types name="effect_bonus_type" />
+            <combobox_eb_bonus_type name="effect_bonus_type" />
 
-            <label_effect>
+            <label_eb>
                 <static textres="opportunity_bonus"/>
-            </label_effect>
-            <checkbox_effect name="effect_opportunity"/>
+            </label_eb>
+            <checkbox_eb_valueholder name="effect_opportunity"/>
         </sheetdata>
     </windowclass>
     <script name="loader_CMD">
