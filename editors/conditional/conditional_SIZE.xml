@@ -9,13 +9,13 @@
             
             <cycler_eb_ifs />
 
-            <cycler_eb name="comparator">
+            <cycler_eb_valueholder name="comparator">
                 <parameters>
                     <defaultlabel mergerule="replace">=</defaultlabel>
                     <labels>&gt;=|&gt;|&lt;|&lt;=</labels>
                     <values>&gt;=|&gt;|&lt;|&lt;=</values>
                 </parameters>
-            </cycler_eb>
+            </cycler_eb_valueholder>
 
             <combobox_eb_size />
         </sheetdata>

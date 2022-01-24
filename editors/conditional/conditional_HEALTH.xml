@@ -9,14 +9,14 @@
             
             <cycler_eb_ifs />
 
-            <cycler_eb name="health_state">
+            <cycler_eb_valueholder name="health_state">
                 <parameters mergerule="replace">
                     <defaultlabel>Healthy</defaultlabel>
                     <defaultvalue>Healthy</defaultvalue>
                     <labels>Wounded|Bloodied</labels>
                     <values>Wounded|Bloodied</values>
                 </parameters>
-            </cycler_eb>
+            </cycler_eb_valueholder>
         </sheetdata>
     </windowclass>
     <script name="loader_conditional_HEALTH">
