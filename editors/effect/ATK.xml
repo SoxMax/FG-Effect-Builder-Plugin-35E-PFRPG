@@ -7,7 +7,7 @@
         <sheetdata>
             <leftanchor_eb />
 
-            <subwindow_dice_value_editor />
+            <subwindow_eb_dice_value_editor />
 
             <!-- <dice_eb_valueholder name="effect_dice" />
 
