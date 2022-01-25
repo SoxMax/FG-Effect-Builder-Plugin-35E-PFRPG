@@ -6,7 +6,7 @@ function getStringValue()
         if valueString ~= "" then
             valueString = valueString .. " "
         end
-        valueString = valueString .. "[" .. stat .."]"
+        valueString = valueString .. "[" .. plus_minus.getStringValue() .. stat .."]"
     end
     return valueString
 end
