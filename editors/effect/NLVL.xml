@@ -5,9 +5,9 @@
         <script file="editors/effect/scripts/NLVL.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
-            <leftanchor />
+            <leftanchor_eb />
 
-            <effect_number name="effect_modifier" />
+            <number_eb_valueholder name="effect_modifier" />
         </sheetdata>
     </windowclass>
     <script name="loader_NLVL">

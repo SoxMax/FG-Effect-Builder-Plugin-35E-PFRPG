@@ -5,19 +5,19 @@
         <script file="editors/conditional/scripts/conditional_SIZE.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
-            <leftanchor />
+            <leftanchor_eb />
             
-            <cycler_ifs />
+            <cycler_eb_ifs />
 
-            <stringcycler_effect name="comparator">
+            <cycler_eb_valueholder name="comparator">
                 <parameters>
                     <defaultlabel mergerule="replace">=</defaultlabel>
                     <labels>&gt;=|&gt;|&lt;|&lt;=</labels>
                     <values>&gt;=|&gt;|&lt;|&lt;=</values>
                 </parameters>
-            </stringcycler_effect>
+            </cycler_eb_valueholder>
 
-            <combobox_sizes />
+            <combobox_eb_size />
         </sheetdata>
     </windowclass>
     <script name="loader_conditional_SIZE">

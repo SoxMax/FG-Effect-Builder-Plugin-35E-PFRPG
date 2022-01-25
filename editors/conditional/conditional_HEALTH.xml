@@ -5,18 +5,18 @@
         <script file="editors/conditional/scripts/conditional_HEALTH.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
-            <leftanchor />
+            <leftanchor_eb />
             
-            <cycler_ifs />
+            <cycler_eb_ifs />
 
-            <stringcycler_effect name="health_state">
+            <cycler_eb_valueholder name="health_state">
                 <parameters mergerule="replace">
                     <defaultlabel>Healthy</defaultlabel>
                     <defaultvalue>Healthy</defaultvalue>
                     <labels>Wounded|Bloodied</labels>
                     <values>Wounded|Bloodied</values>
                 </parameters>
-            </stringcycler_effect>
+            </cycler_eb_valueholder>
         </sheetdata>
     </windowclass>
     <script name="loader_conditional_HEALTH">

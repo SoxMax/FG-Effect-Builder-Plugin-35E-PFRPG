@@ -5,16 +5,16 @@
         <script file="editors/effect/scripts/ABILITY.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
-            <leftanchor />
+            <leftanchor_eb />
 
-            <effect_number name="effect_modifier" />
+            <number_eb_valueholder name="effect_modifier" />
 
-            <combobox_bonus_types name="effect_bonus_type" />
+            <combobox_eb_bonus_type name="effect_bonus_type" />
 
-            <label_effect>
+            <label_eb>
                 <static textres="check_bonus"/>
-            </label_effect>
-            <checkbox_effect name="check_bonus"/>
+            </label_eb>
+            <checkbox_eb_valueholder name="check_bonus"/>
         </sheetdata>
     </windowclass>
     <script name="loader_ABILITY">

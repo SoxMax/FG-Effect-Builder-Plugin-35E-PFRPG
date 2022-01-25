@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <template name="cycler_eb_save">
-        <cycler_eb_valueholder name="save">
+    <template name="cycler_saves">
+        <stringcycler_effect name="save">
             <parameters mergerule="replace">
                 <defaultlabelres>allsaves</defaultlabelres>
                 <labelsres>fortitude|reflex|will</labelsres>
                 <values>fortitude|reflex|will</values>
             </parameters>
-        </cycler_eb_valueholder>
+        </stringcycler_effect>
     </template>
 
-    <template name="cycler_eb_ifs">
-        <cycler_eb_valueholder name="target">
+    <template name="cycler_ifs">
+        <stringcycler_effect name="target">
             <anchored width="60" />
             <parameters mergerule="replace">
                 <defaultlabelres>if</defaultlabelres>
@@ -20,16 +20,16 @@
                 <labelsres>ift</labelsres>
                 <values>IFT</values>
             </parameters>
-        </cycler_eb_valueholder>
+        </stringcycler_effect>
     </template>
 
-    <template name="cycler_eb_range">
-        <cycler_eb_valueholder name="effect_range">
+    <template name="cycler_range">
+        <stringcycler_effect name="effect_range">
             <parameters>
                 <defaultlabelres mergerule="replace">allrange</defaultlabelres>
                 <labelsres>melee|ranged</labelsres>
                 <values>melee|ranged</values>
             </parameters>
-        </cycler_eb_valueholder>
+        </stringcycler_effect>
     </template>
 </root>
