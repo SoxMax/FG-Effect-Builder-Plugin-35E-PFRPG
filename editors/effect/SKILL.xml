@@ -3,19 +3,11 @@
 <root>
     <windowclass name="effect_SKILL">
         <script file="editors/effect/scripts/SKILL.lua" />
-		<margins control="0,0,0,2" />
+        <margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor_eb />
 
-            <dice_eb_valueholder name="effect_dice" />
-
-			<label_eb_plus />
-
-            <number_eb_valueholder name="effect_modifier">
-                <anchored>
-                    <left offset="5" />
-                </anchored>
-            </number_eb_valueholder>
+            <subwindow_eb_dice_value />
 
             <combobox_eb_bonus_type />
 
