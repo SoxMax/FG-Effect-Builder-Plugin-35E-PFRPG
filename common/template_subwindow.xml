@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <template name="subwindow_eb_dice_value">
+        <subwindow_eb_valueholder name="dice_value">
+            <class>subwindow_eb_dice_value</class>
+        </subwindow_eb_valueholder>
+    </template>
+    <windowclass name="subwindow_eb_dice_value">
+        <script file="common/scripts/subwindow_eb_dice_value.lua" />
+        <margins control="0,0,5,2" />
+        <sheetdata>
+            <leftanchor_eb />
+            
+            <dice_eb_valueholder name="effect_dice" />
+
+			<label_eb_plus />
+
+            <number_eb_valueholder name="effect_modifier">
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </number_eb_valueholder>
+
+			<label_eb_plus />
+
+            <cycler_eb_stat_values name="stat_value">
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </cycler_eb_stat_values>
+        </sheetdata>
+    </windowclass>
+
+    <template name="subwindow_eb_number_value">
+        <subwindow_eb_valueholder name="number_value">
+            <class>subwindow_eb_number_value</class>
+        </subwindow_eb_valueholder>
+    </template>
+    <windowclass name="subwindow_eb_number_value">
+        <script file="common/scripts/subwindow_eb_dice_value.lua" />
+        <margins control="0,0,5,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <number_eb_valueholder name="effect_modifier" />
+
+			<label_eb_plus />
+
+            <cycler_eb_stat_values name="stat_value">
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </cycler_eb_stat_values>
+        </sheetdata>
+    </windowclass>
+</root>
