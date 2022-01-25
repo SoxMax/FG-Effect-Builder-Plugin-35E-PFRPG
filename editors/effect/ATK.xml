@@ -9,7 +9,7 @@
 
             <subwindow_eb_dice_value />
 
-            <combobox_eb_bonus_type name="effect_bonus_type" >
+            <combobox_eb_bonus_type name="effect_bonus_type">
                 <anchored>
                     <left offset="5" />
                 </anchored>

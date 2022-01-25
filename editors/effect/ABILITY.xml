@@ -9,7 +9,9 @@
 
             <subwindow_eb_number_value />
 
-            <combobox_eb_bonus_type name="effect_bonus_type" />
+            <combobox_eb_bonus_type name="effect_bonus_type" >
+                
+            </combobox_eb_bonus_type>
 
             <label_eb>
                 <static textres="check_bonus"/>

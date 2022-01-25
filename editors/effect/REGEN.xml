@@ -9,7 +9,11 @@
 
             <subwindow_eb_dice_value />
 
-            <combobox_eb_damage_type />
+            <combobox_eb_damage_type>
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </combobox_eb_damage_type>
         </sheetdata>
     </windowclass>
     <script name="loader_REGEN">
