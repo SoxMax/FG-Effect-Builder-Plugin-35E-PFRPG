@@ -22,13 +22,9 @@
                 </anchored>
             </number_eb_valueholder>
 
-			<label_eb_plus />
+			<cycler_eb_plus_minus />
 
-            <cycler_eb_stat_values name="stat_value">
-                <anchored>
-                    <left offset="5" />
-                </anchored>
-            </cycler_eb_stat_values>
+            <cycler_eb_stat_values name="stat_value" />
         </sheetdata>
     </windowclass>
 
@@ -45,13 +41,9 @@
 
             <number_eb_valueholder name="effect_modifier" />
 
-			<label_eb_plus />
+			<cycler_eb_plus_minus />
 
-            <cycler_eb_stat_values name="stat_value">
-                <anchored>
-                    <left offset="5" />
-                </anchored>
-            </cycler_eb_stat_values>
+            <cycler_eb_stat_values name="stat_value" />
         </sheetdata>
     </windowclass>
 </root>

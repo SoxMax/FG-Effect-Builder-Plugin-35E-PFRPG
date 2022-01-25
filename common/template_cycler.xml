@@ -33,11 +33,22 @@
         </cycler_eb_valueholder>
     </template>
 
+    <template name="cycler_eb_plus_minus">
+        <cycler_eb_valueholder name="plus_minus">
+            <anchored width="10" />
+            <parameters mergerule="replace">
+                <defaultlabel>+</defaultlabel>
+                <labels>-</labels>
+                <values>-</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
     <template name="cycler_eb_stat_values">
         <cycler_eb_valueholder name="stat_value">
             <anchored width="40" />
             <parameters mergerule="replace">
-                <defaultlabel>-</defaultlabel>
+                <defaultlabel>None</defaultlabel>
                 <labels>STR|DEX|CON|INT|WIS|CHA|BAB|LVL|CL</labels>
                 <values>STR|DEX|CON|INT|WIS|CHA|BAB|LVL|CL</values>
             </parameters>
