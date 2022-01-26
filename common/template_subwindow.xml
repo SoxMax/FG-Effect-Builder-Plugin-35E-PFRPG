@@ -21,10 +21,9 @@
                     function onValueChanged()
                         local factor = window.factor
                         if getValue() == "/" then
-                            factor.setReadOnly(true)
-                            factor.setValue(2)
+                            factor.setMaxValue(4)
                         else
-                            factor.setReadOnly(false)
+                            factor.setMaxValue(9)
                         end
                         super.onValueChanged()
                     end
