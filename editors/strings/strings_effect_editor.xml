@@ -2,7 +2,8 @@
 
 <root>
     <string name="category_ability">Ability</string>
-    <string name="check_bonus">Check Bonus?</string>
+    <string name="ability_check">Ability Check</string>
+    <string name="all_abilities">All Abilities</string>
 
     <string name="category_attack">Attacks</string>
     <string name="effect_atk">Attack</string>

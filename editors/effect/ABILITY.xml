@@ -9,14 +9,11 @@
 
             <subwindow_eb_number_value />
 
-            <combobox_eb_bonus_type name="effect_bonus_type" >
-                
+            <combobox_eb_bonus_type name="effect_bonus_type">
+                <anchored>
+                    <left offset="5" />
+                </anchored>
             </combobox_eb_bonus_type>
-
-            <label_eb>
-                <static textres="check_bonus"/>
-            </label_eb>
-            <checkbox_eb_valueholder name="check_bonus"/>
         </sheetdata>
     </windowclass>
     <script name="loader_ABILITY">

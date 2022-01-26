@@ -28,6 +28,7 @@
 
 		<!-- Editors -->
 		<includefile source="editors/effect/ABILITY.xml" />
+		<includefile source="editors/effect/ABIL.xml" />
 		<includefile source="editors/effect/AC.xml" />
 		<includefile source="editors/effect/ATK.xml" />
 		<includefile source="editors/effect/CC.xml" />

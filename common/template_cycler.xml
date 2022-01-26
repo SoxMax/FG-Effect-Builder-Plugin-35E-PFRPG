@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
+    <template name="cycler_eb_ability">
+        <cycler_eb_valueholder name="ability">
+            <parameters mergerule="replace">
+                <defaultlabelres>all_abilities</defaultlabelres>
+                <labelsres>strength|dexterity|constitution|intelligence|wisdom|charisma</labelsres>
+                <values>strength|dexterity|constitution|intelligence|wisdom|charisma</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
     <template name="cycler_eb_save">
         <cycler_eb_valueholder name="save">
             <parameters mergerule="replace">
