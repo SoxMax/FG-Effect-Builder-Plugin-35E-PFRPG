@@ -1,5 +1,5 @@
 function createEffectString()
-    local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. StringManager.convertDiceToString(effect_dice.getDice(), effect_modifier.getValue())
+    local effectString = parentcontrol.window.effect.getStringValue() .. ": " .. dice_value.getStringValue()
     if not damage_type.isEmpty() then
         effectString = effectString .. " " damage_type.getValue()
     end

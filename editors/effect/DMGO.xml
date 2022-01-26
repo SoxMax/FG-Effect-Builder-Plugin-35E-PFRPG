@@ -7,17 +7,13 @@
         <sheetdata>
             <leftanchor_eb />
 
-            <dice_eb_valueholder name="effect_dice" />
+            <subwindow_eb_dice_value />
 
-			<label_eb_plus />
-
-            <number_eb_valueholder name="effect_modifier">
+            <combobox_eb_damage_type name="damage_type">
                 <anchored>
                     <left offset="5" />
                 </anchored>
-            </number_eb_valueholder>
-
-            <combobox_eb_damage_type name="damage_type" />
+            </combobox_eb_damage_type>
         </sheetdata>
     </windowclass>
     <script name="loader_DMGO">

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <template name="cycler_eb_save">
+        <cycler_eb_valueholder name="save">
+            <parameters mergerule="replace">
+                <defaultlabelres>allsaves</defaultlabelres>
+                <labelsres>fortitude|reflex|will</labelsres>
+                <values>fortitude|reflex|will</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
+    <template name="cycler_eb_ifs">
+        <cycler_eb_valueholder name="target">
+            <anchored width="60" />
+            <parameters mergerule="replace">
+                <defaultlabelres>if</defaultlabelres>
+                <defaultvalue>IF</defaultvalue>
+                <labelsres>ift</labelsres>
+                <values>IFT</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
+    <template name="cycler_eb_range">
+        <cycler_eb_valueholder name="effect_range">
+            <parameters>
+                <defaultlabelres mergerule="replace">allrange</defaultlabelres>
+                <labelsres>melee|ranged</labelsres>
+                <values>melee|ranged</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
+    <template name="cycler_eb_plus_minus">
+        <cycler_eb_valueholder name="plus_minus">
+            <anchored width="10" />
+            <parameters mergerule="replace">
+                <defaultlabel>+</defaultlabel>
+                <labels>-</labels>
+                <values>-</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
+    <template name="cycler_eb_multiply_divide">
+        <cycler_eb_valueholder name="multiply_divide">
+            <anchored width="10" />
+            <parameters mergerule="replace">
+                <defaultlabel>x</defaultlabel>
+                <defaultvalue>x</defaultvalue>
+                <labels>/</labels>
+                <values>/</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
+    <template name="cycler_eb_stat_values">
+        <cycler_eb_valueholder name="stat_value">
+            <anchored width="40" />
+            <parameters mergerule="replace">
+                <defaultlabel>None</defaultlabel>
+                <labels>STR|DEX|CON|INT|WIS|CHA|BAB|LVL|CL</labels>
+                <values>STR|DEX|CON|INT|WIS|CHA|BAB|LVL|CL</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+</root>

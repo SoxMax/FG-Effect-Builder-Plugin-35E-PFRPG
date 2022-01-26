@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <template name="subwindow_eb_stat_value">
+        <subwindow_eb_valueholder name="stat_value">
+            <class>subwindow_eb_stat_value</class>
+        </subwindow_eb_valueholder>
+    </template>
+    <windowclass name="subwindow_eb_stat_value">
+        <script file="common/scripts/subwindow_eb_stat_value.lua" />
+        <margins control="0,0,5,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <cycler_eb_plus_minus />
+
+            <cycler_eb_stat_values name="stat_value" />
+
+            <cycler_eb_multiply_divide>
+                <script>
+                    function onValueChanged()
+                        local factor = window.factor
+                        if getValue() == "/" then
+                            factor.setReadOnly(true)
+                            factor.setValue(2)
+                        else
+                            factor.setReadOnly(false)
+                        end
+                        super.onValueChanged()
+                    end
+                </script>
+            </cycler_eb_multiply_divide>
+
+            <number_eb_valueholder name="factor">
+                <default>1</default>
+                <hideonvalue>1</hideonvalue>
+                <min>1</min>
+                <max>9</max>
+            </number_eb_valueholder>
+        </sheetdata>
+    </windowclass>
+
+    <template name="subwindow_eb_dice_value">
+        <subwindow_eb_valueholder name="dice_value">
+            <class>subwindow_eb_dice_value</class>
+        </subwindow_eb_valueholder>
+    </template>
+    <windowclass name="subwindow_eb_dice_value">
+        <script file="common/scripts/subwindow_eb_dice_value.lua" />
+        <margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+            
+            <dice_eb_valueholder name="effect_dice" />
+
+            <label_eb_plus />
+
+            <number_eb_valueholder name="effect_modifier">
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </number_eb_valueholder>
+
+            <subwindow_eb_stat_value />
+        </sheetdata>
+    </windowclass>
+
+    <template name="subwindow_eb_number_value">
+        <subwindow_eb_valueholder name="number_value">
+            <class>subwindow_eb_number_value</class>
+        </subwindow_eb_valueholder>
+    </template>
+    <windowclass name="subwindow_eb_number_value">
+        <script file="common/scripts/subwindow_eb_dice_value.lua" />
+        <margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <number_eb_valueholder name="effect_modifier" />
+
+            <subwindow_eb_stat_value />
+        </sheetdata>
+    </windowclass>
+</root>

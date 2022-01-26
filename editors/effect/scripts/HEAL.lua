@@ -1,3 +1,3 @@
 function createEffectString()
-    return parentcontrol.window.effect.getStringValue() .. ": " .. StringManager.convertDiceToString(effect_dice.getDice(), effect_modifier.getValue())
+    return parentcontrol.window.effect.getStringValue() .. ": " .. dice_value.getStringValue()
 end
