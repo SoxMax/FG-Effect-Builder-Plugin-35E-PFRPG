@@ -44,6 +44,18 @@
         </cycler_eb_valueholder>
     </template>
 
+    <template name="cycler_eb_multiply_divide">
+        <cycler_eb_valueholder name="multiply_divide">
+            <anchored width="10" />
+            <parameters mergerule="replace">
+                <defaultlabel>x</defaultlabel>
+                <defaultvalue>x</defaultvalue>
+                <labels>/</labels>
+                <values>/</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
     <template name="cycler_eb_stat_values">
         <cycler_eb_valueholder name="stat_value">
             <anchored width="40" />
