@@ -19,6 +19,7 @@
 	<base>
 		<!-- Templates -->
 		<includefile source="common/old/cyclers.xml" />
+		<includefile source="common/template_combobox.xml" />
 		<includefile source="common/template_cycler.xml" />
 		<includefile source="common/template_subwindow.xml" />
 
