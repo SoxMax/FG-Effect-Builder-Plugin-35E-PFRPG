@@ -41,6 +41,13 @@
     <string name="effect_nlvl">Negative Level</string>
     <string name="effect_speed">Speed</string>
     
+    <string name="category_situational">Situational</string>
+    <string name="effect_conc">Concealment</string>
+    <string name="effect_tconc">Total Concealment</string>
+    <string name="effect_pcover">Partial Cover</string>
+    <string name="effect_cover">Cover</string>
+    <string name="effect_scover">Superior Cover</string>
+    
     <string name="category_conditional">Conditionals</string>
     <string name="if">If Self</string>
     <string name="ift">If Target</string>

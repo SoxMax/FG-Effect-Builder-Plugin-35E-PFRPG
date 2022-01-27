@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_SITUATION">
+        <script file="editors/effect/scripts/SITUATION.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <cycler_eb_range />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_ATK">
+        function onInit()
+            EditorManager.addEditor(
+                "category_situational",
+                {
+                    value="CONC",
+                    labelres="effect_conc",
+                    windowclass="effect_SITUATION"
+                }
+            )
+            EditorManager.addEditor(
+                "category_situational",
+                {
+                    value="TCONC",
+                    labelres="effect_tconc",
+                    windowclass="effect_SITUATION"
+                }
+            )
+            EditorManager.addEditor(
+                "category_situational",
+                {
+                    value="PCOVER",
+                    labelres="effect_pcover",
+                    windowclass="effect_SITUATION"
+                }
+            )
+            EditorManager.addEditor(
+                "category_situational",
+                {
+                    value="COVER",
+                    labelres="effect_cover",
+                    windowclass="effect_SITUATION"
+                }
+            )
+            EditorManager.addEditor(
+                "category_situational",
+                {
+                    value="SCOVER",
+                    labelres="effect_scover",
+                    windowclass="effect_SITUATION"
+                }
+            )
+        end
+    </script>
+</root>

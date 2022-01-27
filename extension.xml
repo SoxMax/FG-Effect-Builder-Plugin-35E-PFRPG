@@ -48,6 +48,7 @@
 		<includefile source="editors/effect/REGEN.xml" />
 		<includefile source="editors/effect/RESIST.xml" />
 		<includefile source="editors/effect/SAVE.xml" />
+		<includefile source="editors/effect/SITUATION.xml" />
 		<includefile source="editors/effect/SKILL.xml" />
 		<includefile source="editors/effect/SPEED.xml" />
 		<includefile source="editors/effect/VULN.xml" />
