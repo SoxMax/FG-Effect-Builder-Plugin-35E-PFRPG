@@ -91,7 +91,10 @@
     </template>
     <template name="subwindow_eb_damage_types_combobox">
         <combobox_eb_damage_type>
-            <anchored width="90" />
+            <anchored>
+                <size><width>90</width></size>
+                <left><offset>10</offset></left>
+            </anchored>
             <script>
                 function onValueChanged()
                     window.damageFieldUpdated(self)

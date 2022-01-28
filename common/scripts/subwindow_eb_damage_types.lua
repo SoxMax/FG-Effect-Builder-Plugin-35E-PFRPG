@@ -1,6 +1,7 @@
 local index = 0
 local emptyField = nil
 local fields = {}
+local fieldWidth = 100
 
 local function createField()
     index = index + 1
@@ -9,8 +10,13 @@ local function createField()
     return newField
 end
 
+local function getFieldWidth(field)
+    return field.getSize() + field.anchored[1].left[1].offset[1]
+end
+
 function onInit()
     emptyField = createField()
+    fieldWidth = getFieldWidth(emptyField)
 end
 
 function damageFieldUpdated(updatedField)
@@ -18,7 +24,7 @@ function damageFieldUpdated(updatedField)
         if not updatedField.isEmpty() then
             emptyField = createField()
             local width = getSize()
-            parentcontrol.setAnchoredWidth(width + 100)
+            parentcontrol.setAnchoredWidth(width + fieldWidth)
         end
     else
         if updatedField.isEmpty() then
@@ -26,9 +32,10 @@ function damageFieldUpdated(updatedField)
             fields[emptyField] = nil
             emptyField = updatedField
             local width = getSize()
-            parentcontrol.setAnchoredWidth(width - 100)
+            parentcontrol.setAnchoredWidth(width - fieldWidth)
         end
     end
+    getFieldWidth(emptyField)
 end
 
 function getStringValue()
