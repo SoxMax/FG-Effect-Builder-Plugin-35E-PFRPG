@@ -7,11 +7,7 @@
         <sheetdata>
             <leftanchor_eb />
 
-            <combobox_eb_damage_type name="damage_type">
-                <anchored>
-                    <left offset="5" />
-                </anchored>
-            </combobox_eb_damage_type>
+            <subwindow_eb_damage_types />
         </sheetdata>
     </windowclass>
     <script name="loader_DMGTYPE">
