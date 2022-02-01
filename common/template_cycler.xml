@@ -43,6 +43,18 @@
         </cycler_eb_valueholder>
     </template>
 
+    <template name="cycler_eb_and_or">
+        <cycler_eb_valueholder name="and_or">
+            <anchored width="50" />
+            <parameters mergerule="replace">
+                <defaultlabel>AND</defaultlabel>
+                <defaultvalue>and</defaultvalue>
+                <labels>OR</labels>
+                <values>or</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
     <template name="cycler_eb_plus_minus">
         <cycler_eb_valueholder name="plus_minus">
             <anchored width="10" />
