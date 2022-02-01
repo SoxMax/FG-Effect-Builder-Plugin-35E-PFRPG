@@ -9,7 +9,7 @@
             
             <cycler_eb_ifs />
 
-            <combobox_eb_creature_type />
+            <subwindow_eb_creature_types />
         </sheetdata>
     </windowclass>
     <script name="loader_conditional_CREATURE_TYPE">

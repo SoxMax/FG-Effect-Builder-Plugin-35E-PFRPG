@@ -1,3 +1,3 @@
 function createEffectString()
-    return target.getStringValue() .. ": TYPE(" .. creature_type.getValue() .. ")"
+    return target.getStringValue() .. ": TYPE(" .. creature_types.getStringValue() .. ")"
 end

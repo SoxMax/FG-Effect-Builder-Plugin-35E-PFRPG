@@ -16,4 +16,18 @@
             <empty textres="condition_type"/>
         </combobox_eb_valueholder>
     </template>
+
+    <template name="combobox_eb_creature_type">
+        <combobox_eb_valueholder name="creature_type">
+            <script>
+                function onInit()
+                    super.onInit()
+                    add("")
+                    addItems(DataCommon.creaturetype)
+                    addItems(DataCommon.creaturesubtype)
+                end
+            </script>
+            <empty textres="creature_type"/>
+        </combobox_eb_valueholder>
+    </template>
 </root>

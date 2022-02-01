@@ -110,4 +110,31 @@
             <leftanchor_eb />
         </sheetdata>
     </windowclass>
+
+    <template name="subwindow_eb_creature_types">
+        <subwindow_eb_valueholder name="creature_types">
+            <class>subwindow_eb_creature_types</class>
+        </subwindow_eb_valueholder>
+    </template>
+    <template name="subwindow_eb_creature_types_combobox">
+        <combobox_eb_creature_type>
+            <anchored>
+                <size><width>90</width></size>
+                <left><offset>10</offset></left>
+            </anchored>
+            <script>
+                function onValueChanged()
+                    window.fieldUpdated(self)
+                    super.onValueChanged()
+                end
+            </script>
+        </combobox_eb_creature_type>
+    </template>
+    <windowclass name="subwindow_eb_creature_types">
+        <script file="common/scripts/subwindow_eb_creature_types.lua" />
+        <margins control="0,0,5,2" />
+        <sheetdata>
+            <leftanchor_eb />
+        </sheetdata>
+    </windowclass>
 </root>
