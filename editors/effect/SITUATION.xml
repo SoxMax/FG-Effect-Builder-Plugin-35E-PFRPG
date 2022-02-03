@@ -10,7 +10,7 @@
             <cycler_eb_range />
         </sheetdata>
     </windowclass>
-    <script name="loader_ATK">
+    <script name="loader_SITUATION">
         function onInit()
             EditorManager.addEditor(
                 "category_situational",
