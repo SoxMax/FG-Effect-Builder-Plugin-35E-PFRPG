@@ -25,7 +25,7 @@
                 "category_conditional",
                 {
                     value="HEALTH",
-                    labelres="health",
+                    labelres="effect_health",
                     windowclass="conditional_HEALTH"
                 }
             )

@@ -26,7 +26,7 @@
                 "category_conditional",
                 {
                     value="SIZE",
-                    labelres="size",
+                    labelres="effect_size",
                     windowclass="conditional_SIZE"
                 }
             )
