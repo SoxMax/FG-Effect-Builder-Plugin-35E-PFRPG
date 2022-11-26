@@ -18,7 +18,7 @@
                 "category_conditional",
                 {
                     value="CONDITION",
-                    labelres="effect_condition",
+                    labelres="effect_conditional_condition",
                     windowclass="conditional_CONDITION"
                 }
             )

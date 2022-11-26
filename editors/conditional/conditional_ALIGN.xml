@@ -18,7 +18,7 @@
                 "category_conditional",
                 {
                     value="ALIGN",
-                    labelres="effect_alignment",
+                    labelres="effect_conditional_alignment",
                     windowclass="conditional_ALIGN"
                 }
             )
