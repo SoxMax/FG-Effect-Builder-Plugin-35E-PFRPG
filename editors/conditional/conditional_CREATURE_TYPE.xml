@@ -18,7 +18,7 @@
                 "category_conditional",
                 {
                     value="CREATURE_TYPE",
-                    labelres="creature_type",
+                    labelres="effect_conditional_creature_type",
                     windowclass="conditional_CREATURE_TYPE"
                 }
             )

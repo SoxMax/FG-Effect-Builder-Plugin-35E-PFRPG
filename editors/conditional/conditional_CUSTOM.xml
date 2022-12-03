@@ -18,7 +18,7 @@
                 "category_conditional",
                 {
                     value="CUSTOM",
-                    labelres="custom_condition",
+                    labelres="effect_conditional_custom_condition",
                     windowclass="conditional_CUSTOM"
                 }
             )
