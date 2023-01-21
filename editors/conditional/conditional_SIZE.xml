@@ -25,7 +25,7 @@
             EditorManager.addEditor(
                 "category_conditional",
                 {
-                    value="SIZE",
+                    value="CONDITIONAL_SIZE",
                     labelres="effect_conditional_size",
                     windowclass="conditional_SIZE"
                 }

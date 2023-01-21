@@ -17,7 +17,7 @@
             EditorManager.addEditor(
                 "category_conditional",
                 {
-                    value="CONDITION",
+                    value="CONDITIONAL_CONDITION",
                     labelres="effect_conditional_condition",
                     windowclass="conditional_CONDITION"
                 }
