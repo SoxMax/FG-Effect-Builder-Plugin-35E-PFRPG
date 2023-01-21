@@ -24,7 +24,7 @@
             EditorManager.addEditor(
                 "category_conditional",
                 {
-                    value="HEALTH",
+                    value="CONDITIONAL_HEALTH",
                     labelres="effect_conditional_health",
                     windowclass="conditional_HEALTH"
                 }

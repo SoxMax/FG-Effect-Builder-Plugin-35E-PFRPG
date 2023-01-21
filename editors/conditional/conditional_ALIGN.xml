@@ -17,7 +17,7 @@
             EditorManager.addEditor(
                 "category_conditional",
                 {
-                    value="ALIGN",
+                    value="CONDITIONAL_ALIGN",
                     labelres="effect_conditional_alignment",
                     windowclass="conditional_ALIGN"
                 }

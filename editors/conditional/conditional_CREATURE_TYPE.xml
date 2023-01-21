@@ -17,7 +17,7 @@
             EditorManager.addEditor(
                 "category_conditional",
                 {
-                    value="CREATURE_TYPE",
+                    value="CONDITIONAL_CREATURE_TYPE",
                     labelres="effect_conditional_creature_type",
                     windowclass="conditional_CREATURE_TYPE"
                 }
