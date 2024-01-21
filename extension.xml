@@ -58,5 +58,8 @@
 		<includefile source="editors/conditional/conditional_CUSTOM.xml" />
 		<includefile source="editors/conditional/conditional_HEALTH.xml" />
 		<includefile source="editors/conditional/conditional_SIZE.xml" />
+
+		<!-- Final Init -->
+		<script name="EffectBuilderRulesetPluginInit" file="scripts/init.lua" />
 	</base>
 </root>
