@@ -28,7 +28,7 @@ function fieldUpdated(updatedField)
         end
     else
         if updatedField.isEmpty() then
-            emptyField.destroyCombobox()
+            emptyField.destroy()
             fields[emptyField] = nil
             emptyField = updatedField
             local width = getSize()
