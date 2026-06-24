@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_HDMULT">
+        <script file="editors/effect/scripts/HDMULT.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <subwindow_eb_number_value />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_HDMULT">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="HDMULT",
+                    labelres="effect_hdmult",
+                    windowclass="effect_HDMULT"
+                }
+            )
+        end
+    </script>
+</root>

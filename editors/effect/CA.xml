@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="effect_DMGTYPE">
-        <script file="editors/effect/scripts/DMGTYPE.lua" />
+    <windowclass name="effect_CA">
+        <script file="editors/effect/scripts/CA.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor_eb />
-
-            <subwindow_eb_damage_types />
         </sheetdata>
     </windowclass>
-    <script name="loader_DMGTYPE">
+    <script name="loader_CA">
         function onInit()
             EditorManager.addEditor(
                 "category_attack",
                 {
-                    value="DMGTYPE",
-                    labelres="effect_dmgtype",
-                    windowclass="effect_DMGTYPE"
+                    value="CA",
+                    labelres="effect_ca",
+                    windowclass="effect_CA"
                 }
             )
         end

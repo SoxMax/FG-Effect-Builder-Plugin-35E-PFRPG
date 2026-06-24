@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="effect_REGEN">
-        <script file="editors/effect/scripts/REGEN.lua" />
+    <windowclass name="effect_TEMPO">
+        <script file="editors/effect/scripts/TEMPO.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor_eb />
@@ -22,14 +22,14 @@
             <combobox_eb_damage_type name="damage_type_2"/>
         </sheetdata>
     </windowclass>
-    <script name="loader_REGEN">
+    <script name="loader_TEMPO">
         function onInit()
             EditorManager.addEditor(
                 "category_heal",
                 {
-                    value="REGEN",
-                    labelres="effect_regen",
-                    windowclass="effect_REGEN"
+                    value="TEMPO",
+                    labelres="effect_tempo",
+                    windowclass="effect_TEMPO"
                 }
             )
         end

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_ABSORB">
+        <script file="editors/effect/scripts/ABSORB.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <subwindow_eb_number_value />
+
+            <combobox_eb_damage_type>
+                <anchored>
+                    <left offset="5" />
+                </anchored>
+            </combobox_eb_damage_type>
+        </sheetdata>
+    </windowclass>
+    <script name="loader_ABSORB">
+        function onInit()
+            EditorManager.addEditor(
+                "category_susceptibility",
+                {
+                    value="ABSORB",
+                    labelres="effect_absorb",
+                    windowclass="effect_ABSORB"
+                }
+            )
+        end
+    </script>
+</root>

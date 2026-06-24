@@ -7,8 +7,10 @@
         <sheetdata>
             <leftanchor_eb />
 
+            <cycler_eb_turn_timing />
+
             <subwindow_eb_dice_value />
-            
+
             <subwindow_eb_damage_types />
         </sheetdata>
     </windowclass>
