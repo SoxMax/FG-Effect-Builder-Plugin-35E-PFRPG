@@ -25,7 +25,7 @@
 
             <combobox_eb_size>
                 <anchored>
-                    <left offset="5" />
+                    <left offset="15" />
                 </anchored>
             </combobox_eb_size>
 
