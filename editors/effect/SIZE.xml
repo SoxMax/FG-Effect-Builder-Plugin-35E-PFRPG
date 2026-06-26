@@ -15,6 +15,12 @@
                     <labels>Step</labels>
                     <values>Step</values>
                 </parameters>
+                <script>
+                    function onValueChanged()
+                        super.onValueChanged()
+                        window.updateSizeMode()
+                    end
+                </script>
             </cycler_eb_valueholder>
 
             <combobox_eb_size>
