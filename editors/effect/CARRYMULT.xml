@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_CARRYMULT">
+        <script file="editors/effect/scripts/CARRYMULT.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <subwindow_eb_number_value />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_CARRYMULT">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="CARRYMULT",
+                    labelres="effect_carrymult",
+                    windowclass="effect_CARRYMULT"
+                }
+            )
+        end
+    </script>
+</root>

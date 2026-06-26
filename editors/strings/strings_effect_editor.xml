@@ -7,39 +7,59 @@
 
     <string name="category_attack">Attacks</string>
     <string name="effect_atk">Attack</string>
+    <string name="effect_ca">Combat Advantage</string>
+    <string name="effect_cc">Critical Confirmation</string>
     <string name="effect_cmb">Combat Maneuver Bonus (CMB)</string>
     <string name="effect_dmg">Damage</string>
+    <string name="effect_dmgmult">Damage Multiplier</string>
     <string name="effect_dmgo">Damage per Turn</string>
     <string name="effect_dmgtype">Damage Type</string>
-    <string name="effect_cc">Critical Confirmation</string>
+    <string name="effect_esize">Effective Size</string>
 
     <string name="category_defense">Defense</string>
     <string name="effect_ac">Armor Class (AC)</string>
     <string name="effect_cmd">Combat Maneuver Defense (CMD)</string>
+    <string name="effect_grantca">Grants Combat Advantage</string>
     <string name="effect_save">Save</string>
+    <string name="effect_saveo">Save per Turn</string>
+    <string name="effect_sr">Spell Resistance (SR)</string>
     <string name="allsaves">All Saves</string>
 
     <string name="category_susceptibility">Susceptibility</string>
+    <string name="effect_absorb">Absorb</string>
     <string name="effect_dr">Damage Reduction (DR)</string>
+    <string name="effect_dmgr">Damage Reduction per Hit</string>
+    <string name="effect_dmgward">Damage Ward</string>
     <string name="effect_resist">Resistance (Resist)</string>
     <string name="effect_immune">Immunity</string>
     <string name="effect_vuln">Vulnerability</string>
     
     <string name="category_heal">Healing</string>
     <string name="effect_heal">Heal</string>
+    <string name="effect_healmult">Heal Multiplier</string>
     <string name="effect_fheal">Fast Healing</string>
     <string name="effect_regen">Regeneration</string>
+    <string name="effect_tempo">Temp HP per Turn</string>
+    <string name="effect_tempmult">Temp HP Multiplier</string>
     
     <string name="category_spell">Spells</string>
     <string name="effect_clc">Caster Level Check</string>
-    <string name="effect_dmgs">Spell Damage</string>
-    <string name="effect_dmgstype">Spell Damage Type</string>
-    
+
     <string name="category_misc">Miscellaneous</string>
     <string name="effect_init">Initiative</string>
     <string name="effect_skill">Skill</string>
     <string name="effect_nlvl">Negative Level</string>
     <string name="effect_speed">Speed</string>
+    <string name="effect_size">Size</string>
+    <string name="effect_space">Space</string>
+    <string name="effect_addspace">Adjust Space</string>
+    <string name="effect_reach">Reach</string>
+    <string name="effect_addreach">Adjust Reach</string>
+    <string name="effect_sf">Spell Failure</string>
+    <string name="effect_nsf">No Somatic Failure</string>
+    <string name="effect_carry">Carrying Capacity</string>
+    <string name="effect_carrymult">Carry Capacity Multiplier</string>
+    <string name="effect_hdmult">Hit Dice Multiplier</string>
     
     <string name="category_situational">Situational</string>
     <string name="effect_conc">Concealment</string>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_SIZE">
+        <script file="editors/effect/scripts/SIZE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <cycler_eb_valueholder name="size_mode">
+                <anchored width="70" />
+                <parameters mergerule="replace">
+                    <defaultlabel>Category</defaultlabel>
+                    <defaultvalue>Category</defaultvalue>
+                    <labels>Step</labels>
+                    <values>Step</values>
+                </parameters>
+                <script>
+                    function onValueChanged()
+                        super.onValueChanged()
+                        window.updateSizeMode()
+                    end
+                </script>
+            </cycler_eb_valueholder>
+
+            <combobox_eb_size>
+                <anchored>
+                    <left offset="15" />
+                </anchored>
+            </combobox_eb_size>
+
+            <subwindow_eb_number_value />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_SIZE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="SIZE",
+                    labelres="effect_size",
+                    windowclass="effect_SIZE"
+                }
+            )
+        end
+    </script>
+</root>

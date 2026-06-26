@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    <windowclass name="effect_REGEN">
-        <script file="editors/effect/scripts/REGEN.lua" />
+    <windowclass name="effect_DMGWARD">
+        <script file="editors/effect/scripts/DMGWARD.lua" />
 		<margins control="0,0,0,2" />
         <sheetdata>
             <leftanchor_eb />
 
-            <cycler_eb_turn_timing />
-
-            <subwindow_eb_dice_value />
+            <subwindow_eb_number_value />
 
             <combobox_eb_damage_type name="damage_type_1">
                 <anchored>
@@ -22,14 +20,14 @@
             <combobox_eb_damage_type name="damage_type_2"/>
         </sheetdata>
     </windowclass>
-    <script name="loader_REGEN">
+    <script name="loader_DMGWARD">
         function onInit()
             EditorManager.addEditor(
-                "category_heal",
+                "category_susceptibility",
                 {
-                    value="REGEN",
-                    labelres="effect_regen",
-                    windowclass="effect_REGEN"
+                    value="DMGWARD",
+                    labelres="effect_dmgward",
+                    windowclass="effect_DMGWARD"
                 }
             )
         end

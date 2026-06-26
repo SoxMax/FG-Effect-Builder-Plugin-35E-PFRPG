@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_ADDSPACE">
+        <script file="editors/effect/scripts/ADDSPACE.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <subwindow_eb_number_value />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_ADDSPACE">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="ADDSPACE",
+                    labelres="effect_addspace",
+                    windowclass="effect_ADDSPACE"
+                }
+            )
+        end
+    </script>
+</root>

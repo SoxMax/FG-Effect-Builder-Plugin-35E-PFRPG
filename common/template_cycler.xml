@@ -78,6 +78,18 @@
         </cycler_eb_valueholder>
     </template>
 
+    <template name="cycler_eb_turn_timing">
+        <cycler_eb_valueholder name="turn_timing">
+            <anchored width="90" />
+            <parameters mergerule="replace">
+                <defaultlabel>Start of Turn</defaultlabel>
+                <defaultvalue></defaultvalue>
+                <labels>End of Turn</labels>
+                <values>E</values>
+            </parameters>
+        </cycler_eb_valueholder>
+    </template>
+
     <template name="cycler_eb_stat_values">
         <cycler_eb_valueholder name="stat_value">
             <anchored width="40" />

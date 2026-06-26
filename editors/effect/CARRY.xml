@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+    <windowclass name="effect_CARRY">
+        <script file="editors/effect/scripts/CARRY.lua" />
+		<margins control="0,0,0,2" />
+        <sheetdata>
+            <leftanchor_eb />
+
+            <subwindow_eb_number_value />
+        </sheetdata>
+    </windowclass>
+    <script name="loader_CARRY">
+        function onInit()
+            EditorManager.addEditor(
+                "category_misc",
+                {
+                    value="CARRY",
+                    labelres="effect_carry",
+                    windowclass="effect_CARRY"
+                }
+            )
+        end
+    </script>
+</root>
