@@ -76,5 +76,6 @@
     <string name="effect_conditional_size">Is Size?</string>
     <string name="effect_conditional_creature_type">Is Creature Type?</string>
     <string name="effect_conditional_health">At Health Level?</string>
+    <string name="effect_conditional_range">Within Range?</string>
     <string name="effect_conditional_custom_condition">Has Custom Condition?</string>
 </root>

@@ -79,6 +79,7 @@
 		<includefile source="editors/conditional/conditional_CREATURE_TYPE.xml" />
 		<includefile source="editors/conditional/conditional_CUSTOM.xml" />
 		<includefile source="editors/conditional/conditional_HEALTH.xml" />
+		<includefile source="editors/conditional/conditional_RANGE.xml" />
 		<includefile source="editors/conditional/conditional_SIZE.xml" />
 
 		<!-- Final Init -->
